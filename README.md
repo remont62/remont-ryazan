@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Выездной ремонт ТВ и ПК в Рязани</title>
+<style>
+  body {font-family: Arial, sans-serif; margin:0; padding:0; line-height:1.5; color:#333; background:#f7f7f7;}
+  a {text-decoration:none; color:#fff;}
+  header {background:#004aad; color:#fff; padding:60px 20px; text-align:center;}
+  header h1 {font-size:2.5em; margin-bottom:10px;}
+  header p {font-size:1.2em; margin-bottom:20px;}
+  .btn {background:#ff5c00; padding:15px 30px; border-radius:5px; font-weight:bold; display:inline-block; transition:0.3s;}
+  .btn:hover {background:#e04a00; transform:scale(1.05);}
+  section {padding:60px 20px; text-align:center;}
+  h2 {color:#004aad; margin-bottom:30px;}
+  .cards {display:flex; flex-wrap:wrap; justify-content:center; gap:20px;}
+  .card {background:#fff; padding:20px; border-radius:8px; flex:1 1 250px; max-width:300px; box-shadow:0 2px 10px rgba(0,0,0,0.1);}
+  .card img {width:100%; border-radius:5px; margin-bottom:10px;}
+  /* Примеры работ */
+  .works {display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:15px;}
+  .work-card {position:relative; overflow:hidden; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,0.1);}
+  .work-card img {width:100%; display:block;}
+  .work-card .caption {position:absolute; bottom:0; left:0; right:0; background:rgba(0,0,0,0.6); color:#fff; padding:5px; font-size:0.9em;}
+  /* Форма заявки */
+  .form-section {display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:40px; background:#e6f0ff; padding:60px 20px;}
+  .form-section img {max-width:400px; border-radius:10px; box-shadow:0 2px 10px rgba(0,0,0,0.2);}
+  form {background:#fff; padding:30px; border-radius:10px; box-shadow:0 2px 10px rgba(0,0,0,0.2); max-width:400px; width:100%; text-align:left;}
+  form input, form textarea {width:100%; padding:10px; margin-bottom:10px; border-radius:5px; border:1px solid #ccc;}
+  form button {width:100%; padding:12px; border:none; border-radius:5px; background:#ff5c00; color:#fff; font-weight:bold; font-size:1em; cursor:pointer; transition:0.3s;}
+  form button:hover {background:#e04a00; transform:scale(1.02);}
+  /* Адаптив */
+  @media(max-width:768px){.form-section {flex-direction:column;} .form-section img {max-width:100%;}}
+</style>
+</head>
+<body>
+
+<!-- Первый экран -->
+<header>
+  <h1>Выездной ремонт телевизоров и компьютеров в Рязани</h1>
+  <p>Бесплатная диагностика, мастер приедет в день звонка, гарантия 1 год</p>
+  <a href="#form" class="btn">Заказать ремонт</a>
+</header>
+
+<!-- Наши услуги -->
+<section>
+  <h2>Наши услуги</h2>
+  <div class="cards">
+    <div class="card"><img src="https://images.unsplash.com/photo-1618401478087-959d278f71b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8dGVsZXZpc2lvbnx8MHx8fHwxNjc0Mzk2NTMx&ixlib=rb-4.0.3&q=80&w=400" alt="Ремонт телевизора">Ремонт телевизоров любых марок</div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1581091012184-2c9f2a6f0a7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29tcHV0ZXJ8fDB8fHx8MTY3NDM5NjU1MA&ixlib=rb-4.0.3&q=80&w=400" alt="Ремонт компьютера">Ремонт компьютеров и ноутбуков</div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1581091012162-d2a9245cd730?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8dGVjaG5pcXVlfHwwfHx8fDE2NzQzOTY1NzU&ixlib=rb-4.0.3&q=80&w=400" alt="Настройка техники">Настройка и подключение техники</div>
+  </div>
+</section>
+
+<!-- Преимущества -->
+<section style="background:#e6f0ff;">
+  <h2>Наши преимущества</h2>
+  <div class="cards">
+    <div class="card">🛠 Бесплатная диагностика на месте</div>
+    <div class="card">🚚 Выезд мастера в день обращения</div>
+    <div class="card">🏆 Гарантия на все работы — 1 год</div>
+    <div class="card">👨‍🔧 Опытные мастера с инструментами</div>
+    <div class="card">🔧 Оригинальные запчасти</div>
+  </div>
+</section>
+
+<!-- Примеры работ -->
+<section>
+  <h2>Примеры работ</h2>
+  <div class="works">
+    <div class="work-card"><img src="https://images.unsplash.com/photo-1593116036266-bb1f97cb76ec?w=400" alt="До ремонта"><div class="caption">До ремонта</div></div>
+    <div class="work-card"><img src="https://images.unsplash.com/photo-1593116036266-bb1f97cb76ec?w=400" alt="После ремонта"><div class="caption">После ремонта</div></div>
+    <div class="work-card"><img src="https://images.unsplash.com/photo-1601597110733-28bb9d2a44ef?w=400" alt="Ремонт компьютера"><div class="caption">Ноутбук восстановлен</div></div>
+  </div>
+</section>
+
+<!-- Форма заявки -->
+<section class="form-section" id="form">
+  <img src="https://images.unsplash.com/photo-1581091012162-d2a9245cd730?w=400" alt="Мастер за работой">
+  <form id="leadForm">
+    <h2>Закажите бесплатную диагностику прямо сейчас</h2>
+    <input type="text" id="name" placeholder="Ваше имя" required>
+    <input type="tel" id="phone" placeholder="Телефон" required>
+    <textarea id="comment" placeholder="Комментарий / удобное время"></textarea>
+    <button type="submit">Отправить заявку</button>
+    <p>Мастер свяжется в течение 10 минут. Гарантия на ремонт 1 год!</p>
+  </form>
+</section>
+
+<!-- Контакты -->
+<section>
+  <h2>Контакты</h2>
+  <p>Телефон: <a href="tel:+79000000000">+7 (900) 000-00-00</a></p>
+  <p>WhatsApp / Telegram: <a href="https://wa.me/79000000000" target="_blank">Написать сейчас</a></p>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 Ремонт ТВ и ПК, Рязань | <a href="#">Политика конфиденциальности</a></p>
+</footer>
+
+<script>
+// Отправка заявки в WhatsApp
+document.getElementById('leadForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  var name = document.getElementById('name').value;
+  var phone = document.getElementById('phone').value;
+  var comment = document.getElementById('comment').value;
+  var text = `Заявка с лендинга:\nИмя: ${name}\nТелефон: ${phone}\nКомментарий: ${comment}`;
+  var url = `https://wa.me/79000000000?text=${encodeURIComponent(text)}`;
+  window.open(url, '_blank');
+});
+</script>
+
+</body>
+</html>
